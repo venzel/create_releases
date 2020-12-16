@@ -1,3 +1,5 @@
-class App {}
+class App {
+    public run(): void {}
+}
 
 export { App }
