@@ -10,10 +10,12 @@
                 "npmPublish": false
             }
         ],
-        {
-            "path": "@semantic-release/git",
-            "assets": ["dist/", "package.json", "package-lock.json", "CHANGELOG.md"],
-            "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-        }
+        [
+            "@semantic-release/git",
+            {
+                "assets": ["dist/", "package.json", "CHANGELOG.md"],
+                "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+            }
+        ]
     ]
 }
