@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/venzel/releases/compare/v1.2.0...v1.3.0) (2020-12-16)
+
+
+### Features
+
+* app 4 created ([8c2d12f](https://github.com/venzel/releases/commit/8c2d12fd1d41bb03e67e9d76689c8d6e8ff26135))
+
 # [1.2.0](https://github.com/venzel/releases/compare/v1.1.0...v1.2.0) (2020-12-16)
 
 
