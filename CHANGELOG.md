@@ -1,3 +1,15 @@
+# [1.4.0](https://github.com/venzel/releases/compare/v1.3.0...v1.4.0) (2020-12-16)
+
+
+### Bug Fixes
+
+* fixx ([1781174](https://github.com/venzel/releases/commit/178117439356a501674d0538bec12f673705d53f))
+
+
+### Features
+
+* app 4 created ([b64bf75](https://github.com/venzel/releases/commit/b64bf75c23e12411e74fe30cb2fdb2063407ea80))
+
 # [1.3.0](https://github.com/venzel/releases/compare/v1.2.0...v1.3.0) (2020-12-16)
 
 
