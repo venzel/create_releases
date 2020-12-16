@@ -1,1 +1,3 @@
-class App {}
+class App {
+    execute() {}
+}
