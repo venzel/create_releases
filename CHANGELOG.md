@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/venzel/releases/compare/v1.4.0...v1.5.0) (2020-12-16)
+
+
+### Features
+
+* execute ([e582b50](https://github.com/venzel/releases/commit/e582b50ab6f765d81dca8c080cc9bf3fa003be4c))
+
 # [1.4.0](https://github.com/venzel/releases/compare/v1.3.0...v1.4.0) (2020-12-16)
 
 
