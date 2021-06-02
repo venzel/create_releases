@@ -1,6 +1,6 @@
 # README.md
 
-## Pacotes necessários
+### Pacotes necessários
 
 ```bash
 $ yarn add @commitlint/cli @commitlint/config-conventional husky -D
