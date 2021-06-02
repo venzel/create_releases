@@ -1,7 +1,5 @@
 # README.md
 
-#teste
-
 ## Pacotes necessários
 
 ```bash
