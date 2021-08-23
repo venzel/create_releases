@@ -1,73 +1,16 @@
-# README.md
+# Release
 
-### Pacotes necessários
+O repositório é um caso de estudo sobre criação de releases, para futuras consultas.
 
-```bash
-$ yarn add @commitlint/cli @commitlint/config-conventional husky -D
-```
+<p align="left">
+    <img src="https://cdn.worldvectorlogo.com/logos/typescript.svg" alt="Typescript" title="Typescript" width="30" height="30" /> 
+    <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" alt="NodeJS" title="NodeJS" width="30" height="30" /> 
+</p>
 
-```bash
-$ yarn add semantic-release @semantic-release/changelog @semantic-release/git -D
-```
+## Influenciadores
 
-## Configurações para o package.json
+- Codar.me
 
-```JSON
-{
-    "name": "releases",
-    "version": "0.1.0",
-    "main": "index.js",
-    "private": true,
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:venzel/releases.git"
-    },
-    "scripts": {
-        "release": "semantic-release --no-ci"
-    },
-    "commitlint": {
-        "extends": [
-            "@commitlint/config-conventional"
-        ]
-    },
-    "husky": {
-        "hooks": {
-            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-        }
-    }
-}
-```
+## Autor
 
-## Configurações do arquivo: .releaserc.json
-
-```JSON
-{
-  "plugins": [
-    "@semantic-release/commit-analyzer",
-    "@semantic-release/release-notes-generator",
-    "@semantic-release/github",
-    "@semantic-release/changelog",
-    [
-      "@semantic-release/npm",
-      {
-        "npmPublish": false
-      }
-    ],
-    {
-      "path": "@semantic-release/git",
-      "assets": ["package.json", "package-lock.json", "CHANGELOG.md"],
-      "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-    }
-  ]
-}
-```
-
-## Configuracoes do Makefile
-
-```bash
-include .env
-
-release:
-	GITHUB_TOKEN=${GITHUB_TOKEN} yarn release
-```
+Edivam Enéas de Almeida Júnior
