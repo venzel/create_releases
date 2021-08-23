@@ -1,6 +1,6 @@
 # Release
 
-O repositório é um caso de estudo sobre criação de releases, para futuras consultas.
+O repositório é um caso de estudo sobre criações de releases, para futuras consultas.
 
 <p align="left">
     <img src="https://cdn.worldvectorlogo.com/logos/typescript.svg" alt="Typescript" title="Typescript" width="30" height="30" /> 
