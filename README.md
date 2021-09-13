@@ -1,4 +1,4 @@
-# Release
+# Create releases
 
 O repositório é um caso de estudo sobre criações de releases, para futuras consultas.
 
